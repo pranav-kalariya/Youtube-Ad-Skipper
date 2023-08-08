@@ -1,0 +1,21 @@
+{
+    "name": "Auto Skip Ads",
+    "version": "0.1.0",
+    "description": "Automatically Skip Ads on youtube",
+    "host_permissions": ["https://*.youtube.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["https://*.youtube.com/*"],
+        "js": ["contentScript.js"]
+      }
+    ],
+    "action": {
+      "default_icon": {
+        "16": "assets/ext-icon.png",
+        "24": "assets/ext-icon.png",
+        "32": "assets/ext-icon.png"
+      },
+      "default_title": "Auto Skip Ad"  
+    },
+    "manifest_version": 3
+}
