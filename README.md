@@ -1,5 +1,5 @@
 Chrome extension to automatically skip ad on youtube:-
 
-go to extensions
-enable developer options
-click on load unpacked > select the folder
+1) go to extensions
+2) enable developer options
+3) click on load unpacked > select the folder
